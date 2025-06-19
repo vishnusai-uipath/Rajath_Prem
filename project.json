@@ -1,0 +1,64 @@
+{
+  "name": "BrokerStatementsReport",
+  "projectId": "3360afe1-b89d-499b-8dbc-e91ec42fe9e1",
+  "description": "Process to generate Broker Statements Report from Aged Debt Report for Ops team",
+  "main": "Main.xaml",
+  "dependencies": {
+    "BalaReva.Excel.Activities": "[2021.1.0]",
+    "Talbot_DateTime_CustomActivity": "[1.0.3]",
+    "UiPath.Database.Activities": "[1.9.0]",
+    "UiPath.Excel.Activities": "[2.24.2]",
+    "UiPath.Mail.Activities": "[1.23.11]",
+    "UiPath.System.Activities": "24.10.5",
+    "UiPath.UIAutomation.Activities": "[24.10.3]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.10.3.0",
+  "projectVersion": "1.0.8",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "b9b1492e-57b1-47a3-9245-08cf9e95aff1",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
